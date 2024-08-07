@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    
+
+
+</head>
+
+
+
+<header class="header mb-3 ">
+
+    <nav class="navbar navbar-expand-lg  bg-light-subtle">
+        <div class="container-fluid">
+
+            <a href="./index.html " class="me-3">
+                <img src="./Assests/images/logo.png" alt="404 error">
+            </a>
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0" id="navMenus">
+                <li class="nav-item ">
+                    <a class="nav-link " aria-current="page" href="/index.html">Profile</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link  " href="/refund.html">Refund</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="/spending.html">Spending/Balance Report</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="/faq.html">Frequently-asked-quetion </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/login.html">Login</a>
+                </li>
+            </ul>
+
+
+            <div class="langauge-wrap me-3 ">
+                <label class="select-lang me-1 mt-1 ">select langauge</label>
+                <select class="bg-light-subtle  border-1">
+                    <option value="o1">English</option>
+                    <option value="o2">Hindi</option>
+                </select>
+            </div>
+
+
+
+            <div class="dropdown ">
+
+                <button class="btn  dropdown-toggle   border-0 icon-button" type="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    <div class="circle h3 text-center  text-white sg-div">sg</div><span class="mb-5">Semil
+                        godhani</span>
+                </button>
+                <ul class="dropdown-menu dropdown-menu-end">
+                    <li><a class="dropdown-item" href="./changepassword.html">change password</a></li>
+                    <li><a class="dropdown-item" href="#">log out</a></li>
+                </ul>
+            </div>
+
+        </div>
+
+
+    </nav>
+
+</header>
+
+
+
+
+<script>
+$(document).ready(function($){
+
+    var url = window.location.pathname;
+    $('nav li a[href="'+url+'"]').addClass('active');
+    console.log("url ::",url)
+   
+
+});
+</script>

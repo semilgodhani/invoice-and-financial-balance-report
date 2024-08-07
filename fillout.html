@@ -1,0 +1,347 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./Assests/css/style.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.1.1/css/all.css">
+    
+
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+
+
+</head>
+
+<body class="body">
+    <header class="header mb-3 ">
+
+        <nav class="navbar navbar-expand-lg  bg-light-subtle">
+            <div class="container-fluid">
+
+                <a href="./index.html " class="me-3">
+                    <img src="./Assests/images/logo.png" alt="404 error">
+                </a>
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item active ">
+                        <a class="nav-link active " aria-current="page" href="./index.html ">Profile</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link "  href="./refund.html">Refund</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./spending.html">Spending/Balance Report</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./faq.html">Frequently-asked-quetion </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./login.html">Login</a>
+                    </li>
+                </ul>
+
+
+                <div class="langauge-wrap me-3 ">
+                    <label class="select-lang me-1 mt-1 ">select langauge</label>
+                    <select class="bg-light-subtle  border-1">
+                        <option value="o1">English</option>
+                        <option value="o2">Hindi</option>
+                    </select>
+                </div>
+
+
+                
+                <div class="dropdown ">
+                    
+                    <button class="btn  dropdown-toggle   border-0 icon-button" type="button" data-bs-toggle="dropdown"
+                        aria-expanded="false" ><div class="circle h3 text-center  text-white sg-div" >sg</div><span class="mb-5">Semil godhani</span></button>
+                    <ul class="dropdown-menu dropdown-menu-end">
+                        <li><a class="dropdown-item" href="./changepassword.html">change password</a></li>
+                        <li><a class="dropdown-item" href="#">log out</a></li>
+                    </ul>
+                </div>
+
+            </div>
+
+
+        </nav>
+
+    </header>
+
+
+    <div class="container">
+        <div class="card tab1-card">
+            <div class="card-header">
+                <h3 class="text-center">Fill out the Application</h3>
+            </div>
+            <div class="card-body">
+
+                <div class="position-relative m-4 line ">
+
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0"
+                            aria-valuemax="100"></div>
+                    </div>
+
+
+                    <button type="button"
+                        class="position-absolute top-0 start-0 translate-middle  btn btn-sm btn-primary rounded-pill">1</button>
+                    </label>
+                    <button type="button"
+                        class="position-absolute top-0 start-50 translate-middle btn btn-sm btn-secondary rounded-pill">2</button>
+
+                    <button type="button"
+                        class="position-absolute top-0 start-100 translate-middle btn btn-sm btn-secondary rounded-pill">3</button>
+                </div>
+
+            </div>
+            <div class="card-body">
+                <div class="text-center">
+                    <div class="form-check form-check-inline ">
+                        <input class="form-check-input " type="radio" name="inlineRadioOptions" id="inlineRadio1"
+                            value="option1" />
+                        <label class="form-check-label " for="inlineRadio1">Refund Application</label>
+                    </div>
+
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2"
+                            value="option2" />
+                        <label class="form-check-label" for="inlineRadio2">Fund Transfer Application</label>
+                    </div>
+                </div>
+            </div>
+            <div class="card-footer text-muted">
+                <div class="d-grid gap-2 d-md-block">
+                    
+                    <button type="button" class="btn ">Edit</button>
+                    <button type="button" class="btn "id="next-first">Next</button>
+
+                </div>
+            </div>
+
+        </div>
+       
+       
+        <div class="card  tab2-card d-none">
+            <div class="card-header">
+                <h3 class="text-center">Fill out the Application</h3>
+            </div>
+            <div class="card-body">
+
+
+                <div class="position-relative m-4 line">
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 50%;" aria-valuenow="50"
+                            aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <div>
+
+
+                        <button type="button"
+                            class="position-absolute top-0 start-10 translate-middle  btn btn-sm btn-primary rounded-pill">1</button>
+                        </label>
+                        <button type="button"
+                            class="position-absolute top-0 start-50 translate-middle btn btn-sm btn-primary rounded-pill">2</button>
+
+                        <button type="button"
+                            class="position-absolute top-0 start-100 translate-middle btn btn-sm btn-secondary rounded-pill">3</button>
+                    </div>
+
+                </div>
+
+
+                <p></p>
+
+                <h4 class="ms-3">Financial Document</h4>
+
+                <div>
+                    <a href="#" class="btn btn-primary btn-sm ms-3 mb-3 text-white" data-bs-toggle="modal" data-bs-target="#myModal"><i
+                                class="fa-solid fa-plus-large me-1"></i>Add in invoice</a>
+
+
+                </div>
+
+
+                <div class="row me-0 ms-0">
+                    <div class="col">
+
+                        <table class="table">
+                            <thead class="middle-section">
+                                <tr>
+                                    <th scope="col " class="color-th">Pupil</th>
+                                    <th scope="col" class="color-th">Incoice number</th>
+                                    <th scope="col" class="color-th">Invoice File</th>
+                                    <th scope="col" class="color-th">Amount</th>
+                                    <th scope="col" class="color-th">Invoice date</th>
+                                    <th scope="col" class="color-th">Payment Methode</th>
+                                    <th scope="col" class="color-th">Action</th>
+                                </tr>
+                            </thead>
+                        </table>
+                        <div class="alert alert-info text-center" role="alert">
+                            no data Available
+                          </div>
+
+                    </div>
+
+                </div>
+
+                <h4 class="ms-3 mt-2">Additional Document</h4>
+                <label class="ms-3 text-black-50">(Recommendations of the doctor and therapists ,administrative decisions
+                    (MOP,OPS),etc)</label>
+                    <label class="form-control border-0">      
+                <input type="file" class="file mb-2">
+            </label>
+                <div class="card-footer text-muted me-2">
+                    
+
+                    <button type="button " class="btn btn-outline-info text-black " id="retun-second">return</button>
+                    <button type="button" class="btn ">save</button>
+                    <button type="button" class="btn "id="next-second">Next</button>
+
+
+
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <div class="modal " id="myModal">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content ">
+
+                <!-- ...........................................Modal Header .....................................-->
+
+
+
+                <div class="modal-header">
+                    <h4 class="modal-title">Financial Document</h4>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+
+
+                <div class="modal-body me-3 ms-3">
+                    <div class="row ">
+                        <div class="col">
+                            <div class="mb-3 ">
+                                <label for="exampleFormControlInput1" class="form-label">Pupil name.*</label>
+                                <input class="form-control" type="text" placeholder="name">
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="mb-3">
+                                <label for="exampleFormControlInput1" class="form-label">Invoice number*</label>
+                                <input type="text" class="form-control" placeholder="Invoice number">
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="mb-3">
+                                <label for="exampleFormControlInput1" class="form-label">Invoice file*</label>
+                                <input type="file" class="form-control">
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <div class="mb-3">
+                                <label for="exampleFormControlInput1" class="form-label">Invoice date</label>
+                                <input type="date" class="form-control " placeholder="select invoice date">
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="mb-3">
+                                <label for="exampleFormControlInput1"
+                                    class="form-label">Amount*(formate:"00.00")</label>
+                                <input type="text" class="form-control" id="exampleFormControlInput1"
+                                    placeholder="Amount">
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="mb-3">
+                                <label for="exampleFormControlInput1" class="form-label">Payment methode*</label>
+                                <div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                            id="inlineRadio1">
+                                        <label class="form-check-label" for="inlineRadio1">
+                                            cash
+                                        </label>
+                                    </div>
+                                    <div class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                            id="inlineRadio2" checked>
+                                        <label class="form-check-label" for="inlineRadio2">
+                                            Card/bank
+                                        </label>
+
+                                    </div>
+
+                                </div>
+
+
+
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                    <div class="row">
+                        <div class="col">
+                            <div class="form-group">
+                                <label for="exampleFormControlTextarea1">Reason*</label>
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                                    placeholder="reason"></textarea>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+                </div>
+                <div class="modal-footer">
+                    <a href="./fillout.html" class="btn btn-danger"><i
+                                class="fa fa-close"></i>
+                            Cancle</a>
+                    <a href="#" class="btn btn-success"><i class="fa fa-add me-2"></i>Add</a> 
+                       
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    
+
+
+    <script>
+        $(document).ready(function () {
+            $("#next-first").click(function () {
+               $(".tab1-card").addClass('d-none');
+               $(".tab2-card").removeClass('d-none');
+            });
+            $("#retun-second").click(function () {
+               $(".tab2-card").addClass('d-none');
+               $(".tab1-card").removeClass('d-none');
+            });
+            
+
+        
+        });
+    </script>
+
+</body>
+
+</html>
